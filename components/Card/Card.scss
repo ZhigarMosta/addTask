@@ -1,0 +1,40 @@
+.container_card {
+  display: inline-flex;
+  padding: 17px;
+  align-items: flex-start;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(174, 174, 174, 0.25);
+  gap: 4px;
+  flex-direction: column;
+  max-width: 264px;
+}
+.name_task {
+  color: #0f172a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.deck_task {
+  color: #0f172a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.container_data {
+  display: flex;
+  gap: 4px;
+}
+
+.data {
+  color: #64748b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
